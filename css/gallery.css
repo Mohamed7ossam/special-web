@@ -49,9 +49,36 @@
 #navLinks ul li:hover {
     background-color: #ff0;
 }
-#navLinks ul li :active{
+#navLinks ul li.active{
     background-color: #333;
 }
-#navLinks ul li .active:hover{
+#navLinks ul li.active:hover{
     background-color: #484848;
+}
+#DescriptionContainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#DescriptionContainer .Description{
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+#DescriptionContainer .Description .Title{
+    font-weight: bold;
+}
+#DescriptionContainer .Description .icon{
+    color: #32a0c2;
+}
+#DescriptionContainer .Description .tech{
+    color: #666;
+    font-size: 0.9rem;
+}
+#DescriptionContainer .Description .description-text{
+    margin-top: 5px;
+    font-size: 0.9rem;
 }
